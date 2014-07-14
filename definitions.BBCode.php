@@ -4,10 +4,10 @@
 
 // English Definitions for the BBCode plugin.
 
-$definitions["Code"] = "Code";
-$definitions["Image"] = "Image";
-$definitions["Link"] = "Link";
+$definitions["Code"] = "Kod";
+$definitions["Image"] = "Bild";
+$definitions["Link"] = "Länk";
 $definitions["Strike"] = "Strike";
 $definitions["Header"] = "Header";
-$definitions["Italic"] = "Italic";
-$definitions["Bold"] = "Bold";
+$definitions["Italic"] = "Snestild";
+$definitions["Bold"] = "Fetstild";

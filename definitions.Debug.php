@@ -4,7 +4,7 @@
 
 // English Definitions for the Debug plugin.
 
-$definitions["MySQL queries"] = "MySQL queries";
-$definitions["Page loaded in %s seconds"] = "Page loaded in %s seconds";
+$definitions["MySQL queries"] = "MySQL-frågor";
+$definitions["Page loaded in %s seconds"] = "Sidan laddades på %s sekunder";
 $definitions["POST + GET + FILES information"] = "POST + GET + FILES information";
 $definitions["SESSION + COOKIE information"] = "SESSION + COOKIE information";
