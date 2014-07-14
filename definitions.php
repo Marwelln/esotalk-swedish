@@ -542,53 +542,53 @@ $definitions["email.post.body"] = "<p><strong>%1\$s</strong> har svarat i konver
 // These gambits are pretty much evaluated as-they-are.
 // tag:, author:, contributor:, and quoted: are combined with a value after the colon (:).
 // For example: tag:video games, author:myself
-$definitions["gambit.author:"] = "author:";
-$definitions["gambit.contributor:"] = "contributor:";
-$definitions["gambit.member"] = "member";
-$definitions["gambit.myself"] = "myself";
-$definitions["gambit.draft"] = "draft";
-$definitions["gambit.locked"] = "locked";
-$definitions["gambit.order by newest"] = "order by newest";
-$definitions["gambit.order by replies"] = "order by replies";
-$definitions["gambit.private"] = "private";
-$definitions["gambit.random"] = "random";
-$definitions["gambit.reverse"] = "reverse";
-$definitions["gambit.starred"] = "followed";
-$definitions["gambit.ignored"] = "ignored";
-$definitions["gambit.sticky"] = "sticky";
-$definitions["gambit.unread"] = "unread";
-$definitions["gambit.limit:"] = "limit:";
+$definitions["gambit.author:"] = "författare:";
+$definitions["gambit.contributor:"] = "bidragsgivare:";
+$definitions["gambit.member"] = "medlem";
+$definitions["gambit.myself"] = "jag";
+$definitions["gambit.draft"] = "utkast";
+$definitions["gambit.locked"] = "låst";
+$definitions["gambit.order by newest"] = "sortera på nyast";
+$definitions["gambit.order by replies"] = "sortera på svar";
+$definitions["gambit.private"] = "privat";
+$definitions["gambit.random"] = "slumpad";
+$definitions["gambit.reverse"] = "tvärtom";
+$definitions["gambit.starred"] = "följer";
+$definitions["gambit.ignored"] = "ignorerad";
+$definitions["gambit.sticky"] = "klistrad";
+$definitions["gambit.unread"] = "oläst";
+$definitions["gambit.limit:"] = "begränsning:";
 
 // Aliases
 // These are gambits which tell the gambit system to use another gambit.
 // In other words, when you type "active today", the gambit system interprets it as if you typed "active 1 day".
 // The first of each pair, the alias, can be anything you want.
 // The second, however, must fit with the regular expression pattern defined below (more on that later.)
-$definitions["gambit.active today"] = "active today"; // what appears in the gambit cloud
-$definitions["gambit.active 1 day"] = "active 1 day"; // what it actually evaluates to
+$definitions["gambit.active today"] = "aktiva idag"; // what appears in the gambit cloud
+$definitions["gambit.active 1 day"] = "activa 1 dag"; // what it actually evaluates to
 
-$definitions["gambit.has replies"] = "has replies";
-$definitions["gambit.has >0 replies"] = "has >0 replies";
-$definitions["gambit.has >10 replies"] = "has >10 replies";
+$definitions["gambit.has replies"] = "har svar";
+$definitions["gambit.has >0 replies"] = "har >0 svar";
+$definitions["gambit.has >10 replies"] = "har >10 svar";
 
-$definitions["gambit.has no replies"] = "has no replies";
-$definitions["gambit.has 0 replies"] = "has 0 replies";
+$definitions["gambit.has no replies"] = "har inga svar";
+$definitions["gambit.has 0 replies"] = "har 0 svar";
 
-$definitions["gambit.dead"] = "dead";
-$definitions["gambit.active >30 day"] = "active >30 day";
+$definitions["gambit.dead"] = "död";
+$definitions["gambit.active >30 day"] = "activa >30 dagar";
 
 // Units of time
 // These are used in the active gambit.
 // ex. "[active] [>|<|>=|<=|last] 180 [second|minute|hour|day|week|month|year]"
-$definitions["gambit.second"] = "second";
-$definitions["gambit.minute"] = "minute";
-$definitions["gambit.hour"] = "hour";
-$definitions["gambit.day"] = "day";
-$definitions["gambit.week"] = "week";
-$definitions["gambit.month"] = "month";
-$definitions["gambit.year"] = "year";
-$definitions["gambit.last"] = "last"; // as in "active last 180 days"
-$definitions["gambit.active"] = "active"; // as in "active last 180 days"
+$definitions["gambit.second"] = "sekund";
+$definitions["gambit.minute"] = "minut";
+$definitions["gambit.hour"] = "timme";
+$definitions["gambit.day"] = "dag";
+$definitions["gambit.week"] = "vecka";
+$definitions["gambit.month"] = "månad";
+$definitions["gambit.year"] = "år";
+$definitions["gambit.last"] = "senaste"; // as in "active last 180 days"
+$definitions["gambit.active"] = "activ"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
@@ -605,4 +605,4 @@ $definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$d
 
 // This is similar to the regular expression for the active gambit, but for the "has n reply(s)" gambit.
 // Usually you just need to change the "has" and "repl".
-$definitions["gambit.gambitHasNReplies"] = "/^has *(?<a>>|<|>=|<=)? *(?<b>\d+) *repl/";
+$definitions["gambit.gambitHasNReplies"] = "/^har *(?<a>>|<|>=|<=)? *(?<b>\d+) *svar/";
