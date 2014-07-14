@@ -6,7 +6,7 @@
 
 $definitions["Server"] = "Server";
 $definitions["Port"] = "Port";
-$definitions["Authentication"] = "Authentication";
+$definitions["Authentication"] = "Autentisering";
 $definitions["Normal"] = "Normal";
 $definitions["TLS"] = "TLS";
 $definitions["SSL"] = "SSL";
