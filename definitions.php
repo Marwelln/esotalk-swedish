@@ -565,7 +565,7 @@ $definitions["gambit.limit:"] = "begränsning:";
 // The first of each pair, the alias, can be anything you want.
 // The second, however, must fit with the regular expression pattern defined below (more on that later.)
 $definitions["gambit.active today"] = "aktiva idag"; // what appears in the gambit cloud
-$definitions["gambit.active 1 day"] = "activa 1 dag"; // what it actually evaluates to
+$definitions["gambit.active 1 day"] = "aktiva 1 dag"; // what it actually evaluates to
 
 $definitions["gambit.has replies"] = "har svar";
 $definitions["gambit.has >0 replies"] = "har >0 svar";
@@ -575,7 +575,7 @@ $definitions["gambit.has no replies"] = "har inga svar";
 $definitions["gambit.has 0 replies"] = "har 0 svar";
 
 $definitions["gambit.dead"] = "död";
-$definitions["gambit.active >30 day"] = "activa >30 dagar";
+$definitions["gambit.active >30 day"] = "aktiva >30 dagar";
 
 // Units of time
 // These are used in the active gambit.
@@ -588,7 +588,7 @@ $definitions["gambit.week"] = "vecka";
 $definitions["gambit.month"] = "månad";
 $definitions["gambit.year"] = "år";
 $definitions["gambit.last"] = "senaste"; // as in "active last 180 days"
-$definitions["gambit.active"] = "activ"; // as in "active last 180 days"
+$definitions["gambit.active"] = "aktiv"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
