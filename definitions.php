@@ -429,7 +429,7 @@ $definitions["message.conversationDeleted"] = "Konversationen raderad.";
 $definitions["message.conversationNotFound"] = "Denna konversation kan inte visas. Antingen existerar den inte eller så har du inte rättigheter att se den.";
 $definitions["message.cookieAuthenticationTheft"] = "Av säkerhetskäl kunde vi inte logga in dig med 'kom-ihåg-mig-kakan'. Var god logga in manuellt.";
 $definitions["message.deleteChannelHelp"] = "Se upp! Tar du bort denna kanal kan du inte få tillbaka den. Alla konversationen i denna kanal kan flyttas till en annan kanal om så önskas.";
-$definitions["message.emailConfirmed"] = "Härligt! Ditt konto har blivit bekräftat och du kan du delta i konversationer. Varför inte starta en <a href='".URL("conversation/start")."'>egen konversation</a>?";
+$definitions["message.emailConfirmed"] = "Härligt! Ditt konto har blivit bekräftat och du kan nu delta i konversationer. Varför inte starta en <a href='".URL("conversation/start")."'>egen konversation</a>?";
 $definitions["message.emailDoesntExist"] = "Epostadressen tillhör inte någon medlem. Har du skrivit fel?";
 $definitions["message.emailNotYetConfirmed"] = "Du behöver bekräfta din epostadress före du kan logga in. Har du inte fått något epostmeddelande, var god kolla din Spam-mapp. <a href='%s'>Klicka här</a> för att få bekräftelsemejlet igen.";
 $definitions["message.emailTaken"] = "Den epostadress du valda har redan används.";
