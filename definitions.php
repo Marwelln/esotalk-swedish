@@ -104,6 +104,7 @@ $definitions["Channel List"] = "Lista över kanaler";
 $definitions["Channel title"] = "Kanaltitel";
 $definitions["Channel slug"] = "Kanal-slug";
 $definitions["Channels"] = "Kanaler";
+$definitions["Choose a Channel"] = "Välj kanal";
 $definitions["Choose a secure password of at least %s characters"] = "Välj ett säkert lösenord som består av min %s tecken";
 $definitions["Choose what people will see when they first visit your forum."] = "Välj vad användare först kommer se när det besöker forumet.";
 $definitions["Click on a member's name to remove them."] = "Klicka på en medlems namn för att ta bort denne.";
